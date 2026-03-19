@@ -1,0 +1,142 @@
+/* PassBox Manager: Professional Password Vault */
+.add-site-page {
+/* PassBox Manager: Professional Password Vault */
+    padding-top: 2rem;
+/* PassBox Manager: Professional Password Vault */
+    padding-bottom: 4rem;
+/* PassBox Manager: Professional Password Vault */
+    max-width: 800px;
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.add-site-header {
+/* PassBox Manager: Professional Password Vault */
+    margin-bottom: 2rem;
+/* PassBox Manager: Professional Password Vault */
+    display: flex;
+/* PassBox Manager: Professional Password Vault */
+    flex-direction: column;
+/* PassBox Manager: Professional Password Vault */
+    gap: 1rem;
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.back-btn {
+/* PassBox Manager: Professional Password Vault */
+    background: transparent;
+/* PassBox Manager: Professional Password Vault */
+    color: var(--text-secondary);
+/* PassBox Manager: Professional Password Vault */
+    display: flex;
+/* PassBox Manager: Professional Password Vault */
+    align-items: center;
+/* PassBox Manager: Professional Password Vault */
+    gap: 0.5rem;
+/* PassBox Manager: Professional Password Vault */
+    font-weight: 500;
+/* PassBox Manager: Professional Password Vault */
+    align-self: flex-start;
+/* PassBox Manager: Professional Password Vault */
+    padding: 0;
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.back-btn:hover {
+/* PassBox Manager: Professional Password Vault */
+    color: var(--accent-primary);
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.form-container {
+/* PassBox Manager: Professional Password Vault */
+    background-color: var(--bg-secondary);
+/* PassBox Manager: Professional Password Vault */
+    padding: 2.5rem;
+/* PassBox Manager: Professional Password Vault */
+    border-radius: 16px;
+/* PassBox Manager: Professional Password Vault */
+    border: 1px solid var(--border-color);
+/* PassBox Manager: Professional Password Vault */
+    box-shadow: var(--card-shadow);
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.form-row {
+/* PassBox Manager: Professional Password Vault */
+    display: flex;
+/* PassBox Manager: Professional Password Vault */
+    gap: 1.5rem;
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.half-width {
+/* PassBox Manager: Professional Password Vault */
+    flex: 1;
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.input-error {
+/* PassBox Manager: Professional Password Vault */
+    border-color: var(--error);
+/* PassBox Manager: Professional Password Vault */
+    background-color: rgba(239, 68, 68, 0.05);
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.input-error:focus {
+/* PassBox Manager: Professional Password Vault */
+    border-color: var(--error);
+/* PassBox Manager: Professional Password Vault */
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.inline-icon {
+/* PassBox Manager: Professional Password Vault */
+    vertical-align: text-bottom;
+/* PassBox Manager: Professional Password Vault */
+    margin-right: 4px;
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+.btn-save {
+/* PassBox Manager: Professional Password Vault */
+    width: 100%;
+/* PassBox Manager: Professional Password Vault */
+    margin-top: 1rem;
+/* PassBox Manager: Professional Password Vault */
+}
+/* PassBox Manager: Professional Password Vault */
+
+/* PassBox Manager: Professional Password Vault */
+@media (max-width: 640px) {
+/* PassBox Manager: Professional Password Vault */
+    .form-row {
+/* PassBox Manager: Professional Password Vault */
+        flex-direction: column;
+/* PassBox Manager: Professional Password Vault */
+        gap: 0;
+/* PassBox Manager: Professional Password Vault */
+    }
+/* PassBox Manager: Professional Password Vault */
+}
